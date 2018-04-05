@@ -22,7 +22,7 @@ test("test baisc", async test => {
   test.equal(always.False({}), false)
 
   test.equal(always.Null(), null)
-  test.equal(always.Null({}, 4), null)
+  test.equal(always.Null({}), null)
 
   test.equal(always.Void(), undefined)
   test.equal(always.Void("hello"), undefined)
